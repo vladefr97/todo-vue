@@ -1,0 +1,12 @@
+# frontend
+node_modules
+bundle-size-report.html
+coverage
+
+# development
+.vscode/
+.idea/
+.jshintrc
+*.sublime-project
+*.sublime-workspace
+*.log
