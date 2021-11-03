@@ -16,7 +16,7 @@ module.exports = {
     // https://eslint.vuejs.org/rules/
     "plugin:vue/recommended",
     // Turn off rules that conflict with Prettier
-    // "@vue/prettier",
+    "@vue/prettier",
     // Add rules for import order / dependency resolution
     // https://github.com/benmosher/eslint-plugin-import
     "plugin:import/recommended",
