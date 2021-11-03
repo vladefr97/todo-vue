@@ -8,6 +8,11 @@ const page = (path) => () => import(`@pages/${path}`);
 
 const routes = [
   {
+    path: "/",
+    name: "learn-todo",
+    component: page("LearnTodo"),
+  },
+  {
     path: "/index",
     name: "todo",
     component: page("Todo"),

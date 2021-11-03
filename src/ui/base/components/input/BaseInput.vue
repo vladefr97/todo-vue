@@ -1,5 +1,5 @@
 <template>
-  <input type="text" :value="value" class="base-input" @input="onInput" />
+  <input v-model="value" type="text" class="base-input" @input="onInput" />
 </template>
 
 <script>
@@ -13,7 +13,8 @@ export default {
   },
   methods: {
     onInput() {
-      this.$emit("input", this.value);
+      console.log("input text");
+      this.$emit("base-input", this.value);
     },
   },
 };
