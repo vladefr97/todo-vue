@@ -1,20 +1,13 @@
 <template>
-  <div>
-    <h1>test2</h1>
-    <ListItem :title="'Элемент списка'"></ListItem>
-  </div>
-
+  <todo-app />
 </template>
 
 <script>
-import ListItem from "../base/coomponents/ListItem";
-
+import TodoApp from "@/ui/modules/todo-app/TodoApp";
 export default {
   name: "Todo",
-  components: {ListItem},
-}
+  components: { TodoApp },
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

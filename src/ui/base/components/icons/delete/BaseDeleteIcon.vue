@@ -2,7 +2,7 @@
 
 <script>
 export default {
-  name: "TodoApp",
+  name: "BaseDeleteIcon",
 };
 </script>
 

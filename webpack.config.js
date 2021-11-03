@@ -1,9 +1,9 @@
+const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const VueLoaderPlugin = require("vue-loader/lib/plugin");
 // const { VuetifyLoaderPlugin } = require("vuetify-loader");
 
 const webpack = require("webpack");
-const path = require("path");
 
 module.exports = {
   entry: {
@@ -92,8 +92,8 @@ module.exports = {
       "@pages": path.resolve(__dirname, "./src/ui/pages"),
 
       // /* SCSS aliases */
-      // "~modules": path.resolve(__dirname, "./src/static/styles/modules"),
-      // "~base": path.resolve(__dirname, "./src/static/styles/base"),
+      "~modules": path.resolve(__dirname, "./src/static/styles/modules"),
+      "~base": path.resolve(__dirname, "./src/static/styles/base"),
     },
   },
   devServer: {
